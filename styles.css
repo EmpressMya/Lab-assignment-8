@@ -1,0 +1,25 @@
+#board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.x {
+  color: red;
+  font-size: 80px;
+  text-align: center;
+  align-self: center;
+}
+
+.o {
+  color: blue;
+  font-size: 80px;
+  text-align: center;
+  align-self: center;
+}
+
+#board div {
+  border: 2px solid lightblue;
+}
